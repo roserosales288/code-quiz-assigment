@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      
+<div class="quiz timer">
+    <div class = "timer-text">
+        <div class="large-font timer-count">0</div>
+        <h1>seconds remaining</h1>
+      </div>
+</div>
+<header>
+    <div class= "large-font">Code Quiz Challenge</div>
+    <p>Try to answer the following code-related questions within the time limit. Keep in mind the incorrect answers will penalize your score time by ten seconds!</p>
+    <button class="start-button">Start quiz</button>
+</header> 
+
+  <div id="questions" class="hide">
+       <h3 id="title">Title 1</h3>
+        <div>
+            <button id="choice1">Choice 1</button>
+
+        </div>
+        <div>
+            <button id="choice2">Choice 2</button>
+
+        </div>
+        <div>
+            <button id="choice3">Choice 3</button>
+
+        </div>
+        <div>
+            <button id="choice4">Choice 4</button>
+
+        </div>
+ 
+         <div>
+              <h3 id="message">
+
+              </h3>
+         </div>
+    </div>
+  <div id="initials"class="hide">
+      Please Enter Your Initials: <input type="text" id="enter-initials">
+       <button id="save-initials">Save</button>
+  </div>
+
+   <div id="highscore"class="hide">
+          <ol>
+              <li>
+                  DKR-80
+              </li>
+          </ol>
+   </div>
+
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
